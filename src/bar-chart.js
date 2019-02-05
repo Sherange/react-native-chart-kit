@@ -22,7 +22,7 @@ class BarChart extends AbstractChart {
           y={(((height / 4 * 3) - barHeight) + paddingTop)}
           width={barWidth}
           height={barHeight}
-          fill="url(#fillShadowGradient)"
+          fill="#fff"
         />)
     })
   }
